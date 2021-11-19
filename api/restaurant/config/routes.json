@@ -29,7 +29,7 @@
       "path": "/v1/api/restaurants",
       "handler": "restaurant.create",
       "config": {
-        "policies": []
+        "policies": ["isAdmin"]
       }
     },
     {
