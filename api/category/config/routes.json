@@ -45,7 +45,7 @@
       "path": "/v1/api/categories/:id",
       "handler": "category.delete",
       "config": {
-        "policies": []
+        "policies": ["restaurant.isAdmin"]
       }
     }
   ]
