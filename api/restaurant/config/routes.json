@@ -2,7 +2,7 @@
   "routes": [
     {
       "method": "GET",
-      "path": "/restaurants",
+      "path": "/v1/api/restaurants",
       "handler": "restaurant.find",
       "config": {
         "policies": []
@@ -10,7 +10,7 @@
     },
     {
       "method": "GET",
-      "path": "/restaurants/count",
+      "path": "/v1/api/restaurants/count",
       "handler": "restaurant.count",
       "config": {
         "policies": []
@@ -18,7 +18,7 @@
     },
     {
       "method": "GET",
-      "path": "/restaurants/:id",
+      "path": "/v1/api/restaurants/:id",
       "handler": "restaurant.findOne",
       "config": {
         "policies": []
@@ -26,7 +26,7 @@
     },
     {
       "method": "POST",
-      "path": "/restaurants",
+      "path": "/v1/api/restaurants",
       "handler": "restaurant.create",
       "config": {
         "policies": []
@@ -34,7 +34,7 @@
     },
     {
       "method": "PUT",
-      "path": "/restaurants/:id",
+      "path": "/v1/api/restaurants/:id",
       "handler": "restaurant.update",
       "config": {
         "policies": []
@@ -42,7 +42,7 @@
     },
     {
       "method": "DELETE",
-      "path": "/restaurants/:id",
+      "path": "/v1/api/restaurants/:id",
       "handler": "restaurant.delete",
       "config": {
         "policies": []
