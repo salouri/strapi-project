@@ -34,6 +34,6 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "strapi": "^3.1.4"
+    "strapi": "^3.6.8"
   }
 }
